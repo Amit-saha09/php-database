@@ -122,6 +122,7 @@
 
 					if($status) {
 						echo "Data Insertion Successful.";
+                        header("Location: login.php");
 					}
 					else {
 						echo "Failed to Insert Data.";
